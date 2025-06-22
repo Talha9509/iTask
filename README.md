@@ -15,10 +15,6 @@ iTask is a minimal and efficient Todo application built with React, Vite, and Ta
 - Responsive design for desktop and mobile
 - Persistent storage using localStorage
 
-## Screenshots
-
-![iTask Screenshot](public/vite.svg) <!-- Replace with an actual screenshot if available -->
-
 ## Getting Started
 
 ### Prerequisites
@@ -40,21 +36,22 @@ iTask is a minimal and efficient Todo application built with React, Vite, and Ta
 
 4. Open http://localhost:5173 in your browser to view the app.
 
-Build for Production
+# Build for Production
 npm run build
 
-Preview Production Build
+# Preview Production Build
 npm run preview
 
-Project Structure
-src/App.jsx - Main app logic and UI
-src/components/navbar.jsx - Navigation bar component
-src/assets/ - Static assets (e.g., images)
-src/index.css, src/App.css - Styling with Tailwind CSS
-Customization
+## Project Structure
+- src/App.jsx - Main app logic and UI
+- src/components/navbar.jsx - Navigation bar component
+- src/assets/ - Static assets (e.g., images)
+- src/index.css, src/App.css - Styling with Tailwind CSS
+  
+## Customization
 You can easily customize the app by editing the components in the src/ directory and updating the Tailwind configuration.
 
-License
+## License
 This project is open source and available under the MIT License.
 
 Made with ❤️ using React and Vite.
